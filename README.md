@@ -25,3 +25,7 @@ In our Exploratory Data Analysis stage we found information about our data that 
 In our final Modeling phase we established a baseline and compared two other models that were implemented using dimensionality reduction techniques. There was an attempt at using Principal Component Analysis to address the multicollinearity within our dataset. The second model used Lasso regression as a form of feature selection to see which features were most useful to our regression model. 
 
 > [Modeling Report](https://github.com/aureliobarrios/facebook-metrics/blob/main/notebooks/model.ipynb)
+
+## 5. Conclusions & Future 
+
+Through our analysis and modeling we found that the features `lifetime_engaged_users` and `lifetime_consumers` were two of the features that were most significant to our target variable. This can provide some insight as to what social media accounts should focus on when creating a post. They should focus on posts that maximize the number of engaged users and the number of consumers. Although we found some insight on important features for the future it would also prove useful to build a model that has more precision on the Mean Absolute Error.
